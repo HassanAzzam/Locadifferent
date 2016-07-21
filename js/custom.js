@@ -16,10 +16,10 @@
     -----------------------------------------------*/
   $(document).ready(function() {
     $("#owl-work").owlCarousel({
-      autoPlay: 3000,
+      autoPlay: 7000,
       items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
+      itemsDesktop : [1199,5],
+      itemsDesktopSmall : [979,5],
     });
  /* Hide mobile menu after clicking on a link
     -----------------------------------------------*/
