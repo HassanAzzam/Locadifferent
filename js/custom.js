@@ -17,7 +17,7 @@
   $(document).ready(function() {
     $("#owl-work").owlCarousel({
       autoPlay: 7000,
-      items : 3,
+      items : 5,
       itemsDesktop : [1199,5],
       itemsDesktopSmall : [979,5],
     });
@@ -105,4 +105,51 @@ function onScroll(event){
             currLink.removeClass("active");
         }
     });
-}
+};
+setTimeout(function(){
+  var doc = document.getElementById('ind').contentDocument.querySelector('svg');
+  doc.getElementById('core').addEventListener('mouseenter',function(){
+    doc.getElementById('core-d').style.display='block'
+  });
+  doc.getElementById('core').addEventListener('mouseleave',function(){
+    doc.getElementById('core-d').style.display='none'
+  });
+
+  doc.getElementById('high').addEventListener('mouseenter',function(){
+    doc.getElementById('high-d').style.display='block'
+  });
+  doc.getElementById('high').addEventListener('mouseleave',function(){
+    doc.getElementById('high-d').style.display='none'
+  });
+
+  doc.getElementById('dev').addEventListener('mouseenter',function(){
+    doc.getElementById('dev-d').style.display='block'
+  });
+  doc.getElementById('dev').addEventListener('mouseleave',function(){
+    doc.getElementById('dev-d').style.display='none'
+  });
+},1000);
+
+setTimeout(function(){
+  var doc = document.getElementById('lang').contentDocument.querySelector('svg');
+  doc.getElementById('core').addEventListener('mouseenter',function(){
+    doc.getElementById('core-d').style.display='block'
+  });
+  doc.getElementById('core').addEventListener('mouseleave',function(){
+    doc.getElementById('core-d').style.display='none'
+  });
+
+  doc.getElementById('high').addEventListener('mouseenter',function(){
+    doc.getElementById('high-d').style.display='block'
+  });
+  doc.getElementById('high').addEventListener('mouseleave',function(){
+    doc.getElementById('high-d').style.display='none'
+  });
+
+  doc.getElementById('dev').addEventListener('mouseenter',function(){
+    doc.getElementById('dev-d').style.display='block'
+  });
+  doc.getElementById('dev').addEventListener('mouseleave',function(){
+    doc.getElementById('dev-d').style.display='none'
+  });
+},1000);

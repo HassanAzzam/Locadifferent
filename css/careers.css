@@ -4,20 +4,7 @@
 	background-color: #fafafa;
 	border-bottom: 1px solid #ccc;
 }
-img{
-	width: 7%;
-	overflow: hidden !important;
-	border-radius: 5px;
-}
-h1{
-	line-height: 0.75 !important;
-	font-size: 1.8em !important;
-    position: absolute;
-    top:50%;
-    left:10%;
-    transform: translateY(-50%);
-    margin: 0 !important;
-}
+
 h4 strong{
 	font-size: 1.2em;
 }
